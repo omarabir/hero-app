@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/1/400/400",
+    "title": "Forest: Focus For Productivity",
+    "companyName": "Productive.io",
+    "description": "This focus app takes the Pomodoro technique and adds a calm, visual touch. Each session grows a digital tree — stay focused, and your forest thrives.",
+    "size": 258,
+    "reviews": 54000,
+    "ratingAvg": 4.9,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": "0.5k" },
+      { "name": "2 star", "count": "1.2k" },
+      { "name": "3 star", "count": "2.8k" },
+      { "name": "4 star", "count": "6k" },
+      { "name": "5 star", "count": "10.5k" }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/2/400/400",
+    "title": "SmPlan: To-Do List With Reminder",
+    "companyName": "Creative Apps",
+    "description": "A clean, distraction-free planner that helps you organize tasks, set smart reminders, and sync across all your devices.",
+    "size": 291,
+    "reviews": 48200,
+    "ratingAvg": 4.8,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": "0.3k" },
+      { "name": "2 star", "count": "0.9k" },
+      { "name": "3 star", "count": "2.5k" },
+      { "name": "4 star", "count": "7.5k" },
+      { "name": "5 star", "count": "11k" }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/3/400/400",
+    "title": "CalmSpace: Meditation & Sleep",
+    "companyName": "Mindful Labs",
+    "description": "Sleep stories, guided meditations, and focus music all in one place. CalmSpace helps you rest, recharge, and focus.",
+    "size": 320,
+    "reviews": 67000,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": "0.8k" },
+      { "name": "2 star", "count": "1.3k" },
+      { "name": "3 star", "count": "3k" },
+      { "name": "4 star", "count": "5.8k" },
+      { "name": "5 star", "count": "15.6k" }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/4/400/400",
+    "title": "NoteLynk: Smart Notes Organizer",
+    "companyName": "Lynkware",
+    "description": "A simple yet powerful note-taking app that organizes your thoughts, links, and to-dos effortlessly.",
+    "size": 190,
+    "reviews": 37800,
+    "ratingAvg": 4.7,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": "0.4k" },
+      { "name": "2 star", "count": "0.8k" },
+      { "name": "3 star", "count": "1.9k" },
+      { "name": "4 star", "count": "4.3k" },
+      { "name": "5 star", "count": "8.9k" }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/5/400/400",
+    "title": "FitTrack: Daily Fitness Coach",
+    "companyName": "HealthVerse",
+    "description": "Track workouts, set goals, and stay consistent with smart reminders and visual progress tracking.",
+    "size": 280,
+    "reviews": 82000,
+    "ratingAvg": 4.6,
+    "downloads": "14M",
+    "ratings": [
+      { "name": "1 star", "count": "1k" },
+      { "name": "2 star", "count": "1.6k" },
+      { "name": "3 star", "count": "4.1k" },
+      { "name": "4 star", "count": "8.5k" },
+      { "name": "5 star", "count": "16.4k" }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://picsum.photos/seed/6/400/400",
+    "title": "Budgetly: Expense Tracker",
+    "companyName": "SavvySoft",
+    "description": "Manage your expenses, track bills, and visualize your spending patterns with ease.",
+    "size": 240,
+    "reviews": 54000,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": "0.5k" },
+      { "name": "2 star", "count": "1k" },
+      { "name": "3 star", "count": "2.3k" },
+      { "name": "4 star", "count": "5.4k" },
+      { "name": "5 star", "count": "11k" }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://picsum.photos/seed/7/400/400",
+    "title": "FocusFlow: Study Timer",
+    "companyName": "FlowApps",
+    "description": "Combines minimal design with science-backed focus cycles to help you study smarter.",
+    "size": 200,
+    "reviews": 27000,
+    "ratingAvg": 4.7,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": "0.2k" },
+      { "name": "2 star", "count": "0.6k" },
+      { "name": "3 star", "count": "1.5k" },
+      { "name": "4 star", "count": "3.4k" },
+      { "name": "5 star", "count": "7.8k" }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://picsum.photos/seed/8/400/400",
+    "title": "WanderList: Travel Planner",
+    "companyName": "Nomad Labs",
+    "description": "Plan trips, save itineraries, and discover hidden gems with this smart travel planner.",
+    "size": 345,
+    "reviews": 71000,
+    "ratingAvg": 4.8,
+    "downloads": "11M",
+    "ratings": [
+      { "name": "1 star", "count": "0.6k" },
+      { "name": "2 star", "count": "1.3k" },
+      { "name": "3 star", "count": "3.5k" },
+      { "name": "4 star", "count": "6.8k" },
+      { "name": "5 star", "count": "13.9k" }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://picsum.photos/seed/9/400/400",
+    "title": "MindMeld: AI Chat Companion",
+    "companyName": "ThinkBot",
+    "description": "Your friendly AI companion for brainstorming, journaling, and daily conversation.",
+    "size": 310,
+    "reviews": 128000,
+    "ratingAvg": 4.5,
+    "downloads": "18M",
+    "ratings": [
+      { "name": "1 star", "count": "2k" },
+      { "name": "2 star", "count": "2.8k" },
+      { "name": "3 star", "count": "5.5k" },
+      { "name": "4 star", "count": "9.2k" },
+      { "name": "5 star", "count": "21k" }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://picsum.photos/seed/10/400/400",
+    "title": "MealPro: Smart Meal Planner",
+    "companyName": "NutriSmart",
+    "description": "Auto-generates weekly meal plans based on your dietary preferences and goals.",
+    "size": 260,
+    "reviews": 49000,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": "0.5k" },
+      { "name": "2 star", "count": "0.9k" },
+      { "name": "3 star", "count": "2.2k" },
+      { "name": "4 star", "count": "5.1k" },
+      { "name": "5 star", "count": "10.3k" }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://picsum.photos/seed/11/400/400",
+    "title": "TaskHive: Team Collaboration",
+    "companyName": "HiveWorks",
+    "description": "A productivity hub for small teams — tasks, chats, and deadlines all in one place.",
+    "size": 330,
+    "reviews": 88000,
+    "ratingAvg": 4.6,
+    "downloads": "13M",
+    "ratings": [
+      { "name": "1 star", "count": "0.8k" },
+      { "name": "2 star", "count": "1.4k" },
+      { "name": "3 star", "count": "3.8k" },
+      { "name": "4 star", "count": "6.6k" },
+      { "name": "5 star", "count": "15k" }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://picsum.photos/seed/12/400/400",
+    "title": "ZenClock: Minimal Timer",
+    "companyName": "Satori Studio",
+    "description": "A distraction-free timer app designed for mindfulness, yoga, and productivity.",
+    "size": 110,
+    "reviews": 25000,
+    "ratingAvg": 4.9,
+    "downloads": "4M",
+    "ratings": [
+      { "name": "1 star", "count": "0.2k" },
+      { "name": "2 star", "count": "0.5k" },
+      { "name": "3 star", "count": "1k" },
+      { "name": "4 star", "count": "2.5k" },
+      { "name": "5 star", "count": "6k" }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://picsum.photos/seed/13/400/400",
+    "title": "Pixly: Photo Editor",
+    "companyName": "ArtLab",
+    "description": "Edit photos like a pro with filters, layers, and AI-powered retouch tools.",
+    "size": 410,
+    "reviews": 97000,
+    "ratingAvg": 4.6,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": "1.5k" },
+      { "name": "2 star", "count": "2.4k" },
+      { "name": "3 star", "count": "4.3k" },
+      { "name": "4 star", "count": "9.5k" },
+      { "name": "5 star", "count": "18k" }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://picsum.photos/seed/14/400/400",
+    "title": "Langster: Language Learner",
+    "companyName": "EduLabs",
+    "description": "Interactive lessons, voice practice, and gamified challenges to help you learn faster.",
+    "size": 390,
+    "reviews": 105000,
+    "ratingAvg": 4.8,
+    "downloads": "16M",
+    "ratings": [
+      { "name": "1 star", "count": "1.1k" },
+      { "name": "2 star", "count": "1.9k" },
+      { "name": "3 star", "count": "3.6k" },
+      { "name": "4 star", "count": "8k" },
+      { "name": "5 star", "count": "20k" }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://picsum.photos/seed/15/400/400",
+    "title": "Moodify: Daily Journal",
+    "companyName": "BrightMind",
+    "description": "Track your mood, write reflections, and discover what really affects your emotions.",
+    "size": 175,
+    "reviews": 49000,
+    "ratingAvg": 4.7,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": "0.6k" },
+      { "name": "2 star", "count": "0.9k" },
+      { "name": "3 star", "count": "1.8k" },
+      { "name": "4 star", "count": "5.2k" },
+      { "name": "5 star", "count": "9.9k" }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://picsum.photos/seed/16/400/400",
+    "title": "PlanFit: Home Workout Planner",
+    "companyName": "MoveMore",
+    "description": "AI-generated daily workouts tailored to your goals — no gym required.",
+    "size": 295,
+    "reviews": 83000,
+    "ratingAvg": 4.6,
+    "downloads": "13M",
+    "ratings": [
+      { "name": "1 star", "count": "0.9k" },
+      { "name": "2 star", "count": "1.2k" },
+      { "name": "3 star", "count": "3.4k" },
+      { "name": "4 star", "count": "7.8k" },
+      { "name": "5 star", "count": "14.3k" }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://picsum.photos/seed/17/400/400",
+    "title": "BookNest: Reading Tracker",
+    "companyName": "PageTurner",
+    "description": "Track your books, reading time, and progress across devices.",
+    "size": 210,
+    "reviews": 36000,
+    "ratingAvg": 4.8,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": "0.3k" },
+      { "name": "2 star", "count": "0.7k" },
+      { "name": "3 star", "count": "1.6k" },
+      { "name": "4 star", "count": "3.8k" },
+      { "name": "5 star", "count": "7.2k" }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://picsum.photos/seed/18/400/400",
+    "title": "DailyQuote: Motivation Feed",
+    "companyName": "SparkWords",
+    "description": "Get new motivational quotes and affirmations every morning.",
+    "size": 160,
+    "reviews": 41000,
+    "ratingAvg": 4.9,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": "0.2k" },
+      { "name": "2 star", "count": "0.6k" },
+      { "name": "3 star", "count": "1.3k" },
+      { "name": "4 star", "count": "4.5k" },
+      { "name": "5 star", "count": "10.8k" }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://picsum.photos/seed/19/400/400",
+    "title": "TimeNest: Habit Builder",
+    "companyName": "MindGrow",
+    "description": "Build habits that last using streaks, rewards, and data-backed psychology.",
+    "size": 230,
+    "reviews": 59000,
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": "0.4k" },
+      { "name": "2 star", "count": "1k" },
+      { "name": "3 star", "count": "2.4k" },
+      { "name": "4 star", "count": "5.8k" },
+      { "name": "5 star", "count": "11.7k" }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://picsum.photos/seed/20/400/400",
+    "title": "Shoply: Smart Shopping List",
+    "companyName": "HomeEase",
+    "description": "Create, share, and manage your grocery lists with voice input and cloud sync.",
+    "size": 205,
+    "reviews": 42000,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": "0.5k" },
+      { "name": "2 star", "count": "0.8k" },
+      { "name": "3 star", "count": "1.9k" },
+      { "name": "4 star", "count": "4.2k" },
+      { "name": "5 star", "count": "9.3k" }
+    ]
+  }
+]

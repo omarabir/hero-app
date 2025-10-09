@@ -59,7 +59,7 @@ const Banner = () => {
               viewBox="0 0 33 32"
               fill="none"
             >
-              <g clip-path="url(#clip0_1_716)">
+              <g clipPath="url(#clip0_1_716)">
                 <path
                   d="M26.0328 0.00201416H6.96319C3.39163 0.00201416 0.5 2.89364 0.5 6.4652V25.5388C0.5 29.1064 3.39163 31.998 6.96319 31.998H26.0368C29.6044 31.998 32.5 29.1064 32.5 25.5348V6.4652C32.496 2.89364 29.6044 0.00201416 26.0328 0.00201416Z"
                   fill="url(#paint0_linear_1_716)"
@@ -86,8 +86,8 @@ const Banner = () => {
                   y2="31.998"
                   gradientUnits="userSpaceOnUse"
                 >
-                  <stop stop-color="#00BFFC" />
-                  <stop offset="1" stop-color="#0073F6" />
+                  <stop stopColor="#00BFFC" />
+                  <stop offset="1" stopColor="#0073F6" />
                 </linearGradient>
                 <clipPath id="clip0_1_716">
                   <rect
@@ -107,7 +107,7 @@ const Banner = () => {
       <div>
         <img src={bannerImg} alt="" className="mx-auto" />
       </div>
-      <div className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] text-white rounded-xl p-8 mb-4">
+      <div className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] mx-auto flex flex-col justify-center text-white rounded-xl p-8 mb-4">
         <h2 className="text-center text-4xl font-extrabold mb-8">
           Trusted by Millions, Built for You
         </h2>
