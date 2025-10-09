@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <Link to="/" className=" text-xl font-bold">
+          <Link to="/" className=" text-2xl font-bold">
             <img className="h-8 inline mr-2" src={logo} alt="Hero.io Logo" />
             HERO.IO
           </Link>

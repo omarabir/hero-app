@@ -5,11 +5,11 @@ const AppCard = ({ app }) => {
   return (
     <div>
       <div className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300 transform hover:-translate-y-1">
-        <figure className="px-5 pt-5 ">
+        <figure className="px-10 pt-10">
           <img
             src={image}
             alt={title}
-            className="rounded-xl aspect-square object-cover bg-gray-100 p-10"
+            className="rounded-xl aspect-square object-cover"
           />
         </figure>
         <div className="card-body items-start text-left">
@@ -17,7 +17,18 @@ const AppCard = ({ app }) => {
             {title}
           </h2>
           <div className="flex justify-between w-full text-sm text-gray-500 mt-2">
-            <div className="flex items-center space-x-1 bg-gray-100  px-2 py-1 rounded  text-green-500 ">
+            <div className="flex items-center space-x-1">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 text-green-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path d="M10.894 2.553a1 1 0 00-1.788 0l-2.667 5.4a1 1 0 01-.753.547l-5.962.867a1 1 0 00-.555 1.705l4.314 4.204a1 1 0 01.287.886l-1.017 5.94a1 1 0 001.451 1.054L10 18.25l5.325 2.798a1 1 0 001.451-1.054l-1.017-5.94a1 1 0 01.287-.886l4.314-4.204a1 1 0 00-.555-1.705l-5.962-.867a1 1 0 01-.753-.547l-2.667-5.4z" />
+              </svg>
+              <span>{ratingAvg}</span>
+            </div>
+            <div className="flex items-center space-x-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4"
@@ -33,17 +44,6 @@ const AppCard = ({ app }) => {
                 />
               </svg>
               <span>{downloads}</span>
-            </div>
-            <div className="flex items-center space-x-1  bg-[#FFF0E1] px-2 py-1 rounded text-[#FF8811]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4  "
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path d="M10.894 2.553a1 1 0 00-1.788 0l-2.667 5.4a1 1 0 01-.753.547l-5.962.867a1 1 0 00-.555 1.705l4.314 4.204a1 1 0 01.287.886l-1.017 5.94a1 1 0 001.451 1.054L10 18.25l5.325 2.798a1 1 0 001.451-1.054l-1.017-5.94a1 1 0 01.287-.886l4.314-4.204a1 1 0 00-.555-1.705l-5.962-.867a1 1 0 01-.753-.547l-2.667-5.4z" />
-              </svg>
-              <span>{ratingAvg}</span>
             </div>
           </div>
         </div>
