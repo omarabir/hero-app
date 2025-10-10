@@ -35,7 +35,7 @@ const Apps = () => {
         </div>
       </div>
       {filteredApps.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 justify-items-center mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
           {filteredApps.map((app) => (
             <AppCard key={app.id} app={app} />
           ))}

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10 mt-10">
         <aside>
-          <p>
+          <div>
             <span className="flex items-center gap-2 text-3xl font-bold">
               <img
                 src={logo}
@@ -17,7 +17,7 @@ const Footer = () => {
             HERO.IO Ltd.
             <br />
             Providing reliable tech since 2020
-          </p>
+          </div>
         </aside>
         <nav>
           <h6 className="footer-title">Explore</h6>
@@ -42,10 +42,10 @@ const Footer = () => {
         </nav>
       </div>
       <div className="text-center bg-neutral text-neutral-content">
-        <p>
+        <span>
           Copyright © {new Date().getFullYear()} - All right reserved by HERO.IO
           Ltd
-        </p>
+        </span>
       </div>
     </footer>
   );
