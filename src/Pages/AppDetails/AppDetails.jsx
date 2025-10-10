@@ -15,6 +15,7 @@ import {
   LabelList,
 } from "recharts";
 import { addToStoredDB, storedApp } from "../../Utility/addToDb";
+import AppNotFound from "../AppNotFound/AppNotFound";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -29,7 +30,9 @@ const AppDetails = () => {
       setInstalled(true);
     }
   }, [appID]);
-
+  if (!app) {
+    return <AppNotFound />;
+  }
   const {
     image,
     title,

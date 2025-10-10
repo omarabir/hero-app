@@ -1,16 +1,37 @@
-# React + Vite
+# HERO.IO (hero-app)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## App Name
+HERO.IO
 
-Currently, two official plugins are available:
+## Description
+HERO.IO is a small marketplace/demo app that showcases a curated list of applications. Users can browse trending apps, view trending and all available apps, see detailed statistics (downloads, ratings, reviews) and simulate installation. The project demonstrates modern frontend patterns: client-side routing, loaders, component composition, and lightweight charting.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React (JSX)
+- Vite (dev server / bundler)
+- React Router DOM (routing & loaders)
+- Tailwind CSS (utility-first styling)
+- Recharts (charts)
+- React Toastify (notifications)
+- Lucide Icons (icons)
 
-## React Compiler
+## Quick start
+1. Install dependencies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```pwsh
+npm install
+```
 
-## Expanding the ESLint configuration
+2. Run the dev server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```pwsh
+npm run dev
+```
+
+3. Open the app in the browser at the URL Vite shows (usually http://localhost:5173).
+
+## Notes
+- Route loaders fetch `public/appData.json`. Ensure that file exists when running locally.
+- Prefer `react-router-dom` imports for browser components/hooks (RouterProvider, Link, NavLink, useLoaderData, etc.).
+
+If you want a longer README (screenshots, architecture, contribution guide), I can add that next.

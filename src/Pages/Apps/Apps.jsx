@@ -1,14 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, useLoaderData } from "react-router";
 import AppCard from "../../Components/AppCard/AppCard";
+import AppNotFound from "../AppNotFound/AppNotFound";
+import Loading from "../../Components/Loading/Loading";
 
 const Apps = () => {
   const allAppsData = useLoaderData();
   const [searchItem, setSearchItem] = useState("");
+  const [searching, setSearching] = useState(false);
 
   const filteredApps = allAppsData.filter((app) => {
     return app.title.toLowerCase().includes(searchItem.toLowerCase());
   });
+  useEffect(() => {
+    if (searchItem === "") {
+      setSearching(false);
+      return;
+    }
+
+    setSearching(true);
+    const id = setTimeout(() => setSearching(false), 400); // debounce
+    return () => clearTimeout(id);
+  }, [searchItem]);
+
   return (
     <div className="container mx-auto px-4 py-10 space-y-8">
       <div className="text-center">
@@ -34,27 +48,16 @@ const Apps = () => {
           />
         </div>
       </div>
-      {filteredApps.length > 0 ? (
+      {searching ? (
+        <Loading text={`Searching for "${searchItem}"...`} />
+      ) : filteredApps.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-10">
           {filteredApps.map((app) => (
             <AppCard key={app.id} app={app} />
           ))}
         </div>
       ) : (
-        <div className="h-screen">
-          <div className="text-center mt-4 mb-4">
-            <h2 className="text-3xl font-bold">OPPS!! NO APPs FOUND</h2>
-            <p className="text-[#627382]">
-              The App you are requesting is not found on our system. please try
-              another apps
-            </p>
-            <Link to="/">
-              <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-4 py-2 rounded mt-2">
-                Go Back
-              </button>
-            </Link>
-          </div>
-        </div>
+        <AppNotFound />
       )}
     </div>
   );

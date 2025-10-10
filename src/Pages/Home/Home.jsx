@@ -5,7 +5,6 @@ import TopApps from "../../Components/TopApps/TopApps";
 
 const Home = () => {
   const appData = useLoaderData();
-  console.log(appData);
   return (
     <div className="">
       <Banner></Banner>
