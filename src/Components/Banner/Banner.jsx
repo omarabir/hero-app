@@ -1,32 +1,39 @@
 import React from "react";
 import { Link } from "react-router";
 import bannerImg from "../../assets/hero.png";
+
 const Banner = () => {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mt-6 leading-tight">
-        {" "}
-        We Build <br />{" "}
+    <section className="text-center px-4 sm:px-6 md:px-10">
+      {/* Heading */}
+      <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mt-6 leading-tight">
+        We Build <br />
         <span className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] bg-clip-text text-transparent">
           Productive
         </span>{" "}
         Apps
       </h1>
 
-      <p className="text-[#627382] mt-3 mb-4 text-sm sm:text-base">
+      {/* Subtext */}
+      <p className="text-[#627382] mt-3 mb-6 text-sm sm:text-base leading-relaxed">
         At HERO.IO, we craft innovative apps designed to make everyday life
         simpler, smarter, and more exciting. <br className="hidden sm:block" />
         Our goal is to turn your ideas into digital experiences that truly make
         an impact.
       </p>
 
-      <div className="flex gap-4 mt-4 justify-center mb-4">
-        <Link to="https://play.google.com/store/apps?hl=en">
-          <button className="flex items-center gap-2 bg-gray-100 text-black py-3 px-6 rounded-xl hover:bg-gray-200 transition border">
+      {/* Buttons */}
+      <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center mt-6 mb-6">
+        {/* Google Play */}
+        <Link to="https://play.google.com/store/apps?hl=en" target="_blank">
+          <button
+            className="flex items-center justify-center gap-2 bg-gray-100 text-black 
+              py-2 sm:py-3 px-4 sm:px-6 rounded-xl hover:bg-gray-200 transition border w-48 sm:w-auto"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="33"
-              height="32"
+              width="28"
+              height="28"
               viewBox="0 0 33 32"
               fill="none"
             >
@@ -47,36 +54,25 @@ const Banner = () => {
                 fill="#FB434C"
               />
             </svg>
-            Google Play
+            <span className="text-sm sm:text-base font-medium">
+              Google Play
+            </span>
           </button>
         </Link>
-        <Link to="https://www.apple.com/store">
-          <button className="flex items-center gap-2 bg-gray-100 text-black py-3 px-6 rounded-xl hover:bg-gray-200 transition border">
+
+        {/* App Store */}
+        <Link to="https://www.apple.com/store" target="_blank">
+          <button
+            className="flex items-center justify-center gap-2 bg-gray-100 text-black 
+              py-2 sm:py-3 px-4 sm:px-6 rounded-xl hover:bg-gray-200 transition border w-48 sm:w-auto"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="33"
-              height="32"
+              width="28"
+              height="28"
               viewBox="0 0 33 32"
               fill="none"
             >
-              <g clipPath="url(#clip0_1_716)">
-                <path
-                  d="M26.0328 0.00201416H6.96319C3.39163 0.00201416 0.5 2.89364 0.5 6.4652V25.5388C0.5 29.1064 3.39163 31.998 6.96319 31.998H26.0368C29.6044 31.998 32.5 29.1064 32.5 25.5348V6.4652C32.496 2.89364 29.6044 0.00201416 26.0328 0.00201416Z"
-                  fill="url(#paint0_linear_1_716)"
-                />
-                <path
-                  d="M16.3619 7.35309L17.0099 6.23321C17.4098 5.53328 18.3017 5.29734 19.0016 5.69728C19.7016 6.09721 19.9375 6.98909 19.5376 7.68903L13.2943 18.4957H17.8097C19.2736 18.4957 20.0934 20.2155 19.4576 21.4073H6.21924C5.41137 21.4073 4.76343 20.7594 4.76343 19.9515C4.76343 19.1437 5.41137 18.4957 6.21924 18.4957H9.9308L14.6822 10.2607L13.1984 7.68503C12.7985 6.98509 13.0344 6.10121 13.7344 5.69328C14.4343 5.29334 15.3182 5.52928 15.7261 6.22921L16.3619 7.35309Z"
-                  fill="white"
-                />
-                <path
-                  d="M10.7466 22.9071L9.34682 25.3348C8.94688 26.0348 8.05501 26.2707 7.35507 25.8708C6.65513 25.4708 6.41919 24.579 6.81913 23.879L7.85901 22.0793C9.03482 21.7153 9.99069 21.9953 10.7466 22.9071Z"
-                  fill="white"
-                />
-                <path
-                  d="M22.8011 18.5037H26.5886C27.3965 18.5037 28.0444 19.1517 28.0444 19.9595C28.0444 20.7674 27.3965 21.4153 26.5886 21.4153H24.4849L25.9047 23.879C26.3046 24.579 26.0687 25.4628 25.3688 25.8708C24.6688 26.2707 23.7849 26.0348 23.377 25.3348C20.9853 21.1873 19.1895 18.0838 17.9977 16.016C16.7778 13.9123 17.6498 11.8005 18.5096 11.0847C19.4656 12.7245 20.8934 15.2002 22.8011 18.5037Z"
-                  fill="white"
-                />
-              </g>
               <defs>
                 <linearGradient
                   id="paint0_linear_1_716"
@@ -89,50 +85,58 @@ const Banner = () => {
                   <stop stopColor="#00BFFC" />
                   <stop offset="1" stopColor="#0073F6" />
                 </linearGradient>
-                <clipPath id="clip0_1_716">
-                  <rect
-                    width="32"
-                    height="32"
-                    fill="white"
-                    transform="translate(0.5)"
-                  />
-                </clipPath>
               </defs>
+              <rect
+                width="32"
+                height="32"
+                rx="6"
+                fill="url(#paint0_linear_1_716)"
+              />
+              <path
+                d="M15.5 10L17 12.5L12 21H15.5C17.1 21 18 22.9 17 24H9.5C8.5 24 7.7 23.2 7.7 22.2C7.7 21.2 8.5 20.4 9.5 20.4H12L15.5 10Z"
+                fill="white"
+              />
             </svg>
-            App Store
+            <span className="text-sm sm:text-base font-medium">App Store</span>
           </button>
         </Link>
       </div>
 
-      <div>
-        <img src={bannerImg} alt="" className="mx-auto" />
+      {/* Banner Image */}
+      <div className="flex justify-center">
+        <img
+          src={bannerImg}
+          alt="Banner"
+          className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 h-auto object-contain mx-auto"
+        />
       </div>
-      <div className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] mx-auto flex flex-col justify-center text-white rounded-xl p-8 mb-4">
-        <h2 className="text-center text-4xl font-extrabold mb-8">
+
+      <div className="bg-[linear-gradient(125deg,#632EE3_5.68%,#9F62F2_88.38%)] text-white rounded-xl p-6 sm:p-8 mb-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-6">
           Trusted by Millions, Built for You
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center text-center">
-          <div className="p-4 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div>
             <p className="font-light">Total Downloads</p>
-            <h2 className="text-4xl font-extrabold my-4">29.6M</h2>
-            <p className="font-light"> 21% more than last month</p>
+            <h3 className="text-3xl sm:text-4xl font-extrabold my-2">29.6M</h3>
+            <p className="font-light">21% more than last month</p>
           </div>
 
-          <div className="p-4 ">
+          <div>
             <p className="font-light">Total Reviews</p>
-            <h2 className="text-4xl font-extrabold my-4">906K</h2>
+            <h3 className="text-3xl sm:text-4xl font-extrabold my-2">906K</h3>
             <p className="font-light">46% more than last month</p>
           </div>
 
-          <div className="p-4">
+          <div>
             <p className="font-light">Active Apps</p>
-            <h2 className="text-4xl font-extrabold my-4">132+</h2>
+            <h3 className="text-3xl sm:text-4xl font-extrabold my-2">132+</h3>
             <p className="font-light">31 more will launch</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
