@@ -57,7 +57,9 @@ const Apps = () => {
           ))}
         </div>
       ) : (
-        <AppNotFound />
+        <div className="col-span-full">
+          <AppNotFound />
+        </div>
       )}
     </div>
   );
