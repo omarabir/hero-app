@@ -17,6 +17,24 @@ HERO.IO is a small marketplace/demo app that showcases a curated list of applica
 - React Toastify (notifications)
 - Lucide Icons (icons)
 
+#### Dependencies List
+
+```
+   "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "daisyui": "^5.1.29",
+    "lucide": "^0.545.0",
+    "lucide-react": "^0.545.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.4",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.2.1",
+    "tailwindcss": "^4.1.14"
+  },
+```
+
+
 ## Quick start
 1. Install dependencies:
 
