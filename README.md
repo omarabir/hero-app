@@ -2,6 +2,7 @@
 
 ## App Name
 HERO.IO
+live link : https://hero-app1.netlify.app/
 
 ## Description
 HERO.IO is a small marketplace/demo app that showcases a curated list of applications. Users can browse trending apps, view trending and all available apps, see detailed statistics (downloads, ratings, reviews) and simulate installation. The project demonstrates modern frontend patterns: client-side routing, loaders, component composition, and lightweight charting.
