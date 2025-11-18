@@ -2,7 +2,8 @@
 
 ## App Name
 HERO.IO
-live link : https://hero-app1.netlify.app/
+- live link : https://hero-app1.netlify.app/
+
 
 ## Description
 HERO.IO is a small marketplace/demo app that showcases a curated list of applications. Users can browse trending apps, view trending and all available apps, see detailed statistics (downloads, ratings, reviews) and simulate installation. The project demonstrates modern frontend patterns: client-side routing, loaders, component composition, and lightweight charting.
@@ -31,8 +32,6 @@ npm run dev
 
 3. Open the app in the browser at the URL Vite shows (usually http://localhost:5173).
 
-## Notes
-- Route loaders fetch `public/appData.json`. Ensure that file exists when running locally.
-- Prefer `react-router-dom` imports for browser components/hooks (RouterProvider, Link, NavLink, useLoaderData, etc.).
 
-If you want a longer README (screenshots, architecture, contribution guide), I can add that next.
+
+
