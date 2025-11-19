@@ -60,7 +60,7 @@ To run HERO.IO on your local machine:
 * Clone the repository
 
 ```bash
-git clone https://github.com/your-username/hero-app.git
+git clone https://github.com/omarabir/hero-app
 ```
 
 * Go to the project directory
